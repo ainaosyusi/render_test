@@ -5,7 +5,7 @@ app = FastAPI()
 # "/"にGETメソッドでリクエストした際の処理を定義
 @app.get("/")
 def index():
-    return {"Hello": "World"}
+    return {"Hello": "Japan"}
 
 # "/items/{item_id}"にGETメソッドでリクエストした際の処理を定義
 @app.get("/items/{item_id}")
